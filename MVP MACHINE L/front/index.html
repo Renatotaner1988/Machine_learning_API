@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>AI Diabetes System</title>
+    
+    <!-- Ícone da página -->
+    <link rel="icon" href="img/home_logo.jpeg" type="image/png">
+</head>
+
+<body>
+    <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Bem-Vindo ao Sistema de Diagnóstico de Doenças Cardíacas</h2>
+            <br>
+            <p>Este sistema foi desenvolvido para identificar tipos de dores cardíacas.</p>
+            <p>Para isso, basta preencher os campos abaixo com os dados do paciente e clicar em "Diagnosticar".</p>
+        </div>
+        <!-- <div class="banner">
+            <img src="img/home.jpeg" alt="Imagem do banner">
+        </div> -->
+    </header>
+
+    <!-- Seção para entrada de dados do paciente -->
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Nome">
+        <input type="text" id="newAge" placeholder="Idade">
+        <input type="text" id="newSex" placeholder="Sexo">
+        <input type="text" id="newCp" placeholder="Tipo de dor">
+        <input type="text" id="newTrestbpd" placeholder="Pressão A. em repouso">
+        <input type="text" id="newChol" placeholder="Colesterol">
+        <input type="text" id="newFbs" placeholder="Fbs (Glicose em jejum)">
+        <input type="text" id="newRestecg" placeholder="Restecg (Eletrocard.)">
+        <input type="text" id="newThalach" placeholder="Freq.cardíaca máxima">
+        <input type="text" id="newExang" placeholder="Exang (Angina provocada)">
+        <input type="text" id="newOldpeak" placeholder="Oldpeak (Depressão do ST)">
+        <input type="text" id="newSlope" placeholder="Slope (Inclinação do ST)">
+        <input type="text" id="newCa" placeholder="Nº de vasos principais coloridos">
+        <input type="text" id="newThal" placeholder="Thal (Talassemia)">
+        
+        <!-- Botão para acionar o diagnóstico -->
+        <span onclick="newItem()" class="addBtn">Diagnosticar</span>
+    </section>
+
+<!-- Tabela com dados de pacientes -->
+<section class="items">
+    <div class="table-container">
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Sexo</th>
+                    <th>Tipo de dor</th>
+                    <th>Pressão arterial</th>
+                    <th>Colesterol</th>
+                    <th>Glicose em jejum</th>
+                    <th>EletroC.</th>
+                    <th>Frequência cardíaca</th>
+                    <th>Angina provocada</th>
+                    <th>Depressão do ST</th>
+                    <th>Inclinação do ST</th>
+                    <th>Vasos coloridos</th>
+                    <th>Talassemia</th>
+                    <th>Diagnóstico</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas da tabela serão geradas dinamicamente -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+    <!-- Inclusão do script externo -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

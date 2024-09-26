@@ -1,0 +1,239 @@
+/* Estilos globais */
+body, ul, li {
+    /* Define a fonte padrão para tahoma */
+    font-family: tahoma;
+    
+    /* Ajusta o box-sizing para incluir padding e border no cálculo do tamanho total */
+    box-sizing: border-box;
+    
+    /* Remove margens e espaçamentos padrão */
+    margin: 0;
+    padding: 0;
+    
+    /* Cor de fundo suave para o corpo da página */
+    background-color: rgb(225, 222, 199);
+}
+
+/* Estilização do cabeçalho */
+header {
+    /* Cor de fundo igual ao restante da página */
+    background-color: rgb(225, 222, 199);
+    
+    /* Centraliza o texto do cabeçalho */
+    text-align: center;
+    
+    /* O header ocupa toda a largura da tela */
+    position: relative;
+    width: 100%;
+}
+
+/* Título no cabeçalho */
+.title {
+    /* Cor do texto branco para contraste */
+    color: white;
+    
+    /* O título ocupa toda a largura disponível */
+    width: 100%;
+    
+    /* Cor de fundo escura */
+    background-color: rgb(35, 32, 24);
+    
+    /* Exibe como bloco inline para melhor controle de layout */
+    display: inline-block;
+    
+    /* Define espaçamento interno */
+    padding: 2px 0;
+    
+    /* O título fica fixo no topo ao rolar a página */
+    position: sticky;
+    top: 0;
+}
+
+/* Seção do banner */
+.banner {
+    /* Altura definida para o banner */
+    height: 300px;
+    
+    /* Esconde o conteúdo excedente */
+    overflow: hidden;
+}
+
+.banner img {
+    /* Margens zeradas para a imagem */
+    margin: 0;
+    
+    /* Imagem ocupa 100% da largura do container */
+    width: 100%;
+}
+
+/* Seção de novos itens */
+.newItem {
+    /* Fundo com a mesma cor da página */
+    background-color: rgb(225, 222, 199);
+    
+    /* Espaçamento interno */
+    padding: 30px 40px;
+    
+    /* Texto em branco */
+    color: white;
+    
+    /* Flexbox para alinhamento e organização dos itens */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Espaçamento entre itens */
+    gap: 5px;
+    
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+}
+
+/* Limpa floats automáticos */
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Botão de adicionar */
+.addBtn {
+    /* Define padding interno do botão */
+    padding: 9px 10px;
+    
+    /* Fundo escuro para o botão */
+    background-color: rgb(35, 32, 24);
+    
+    /* Texto branco */
+    color: white;
+    
+    /* Centraliza o texto no botão */
+    text-align: center;
+    
+    /* Tamanho da fonte */
+    font-size: 16px;
+    
+    /* Torna o cursor uma mãozinha ao passar sobre o botão */
+    cursor: pointer;
+    
+    /* Transição suave nas interações */
+    transition: 0.3s;
+    
+    /* Bordas arredondadas */
+    border-radius: 2px;
+}
+
+/* Efeito hover no botão de adicionar */
+.addBtn:hover {
+    /* Cor de fundo muda ao passar o mouse */
+    background-color: #2ab53a;
+    
+    /* Texto permanece branco */
+    color: white;
+}
+
+/* Lista de itens */
+.items {
+    /* Remove margens e espaçamentos */
+    margin: 0;
+    padding: 0;
+    
+    /* Flexbox para disposição dos itens */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Alinhamento central dos itens */
+    justify-content: center;
+}
+
+/* Efeitos hover em botões de fechar e atualizar */
+.close:hover {
+    /* Cor vermelha ao passar o mouse */
+    color: #f44336;
+    
+    /* Texto mais forte */
+    font-weight: bolder;
+}
+
+.update:hover {
+    /* Texto preto ao passar o mouse */
+    color: #000000;
+    
+    /* Texto mais forte */
+    font-weight: bolder;
+}
+
+/* Estilos para a tabela */
+table, th, td {
+    /* Borda preta e estilo colapsado */
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    /* Cursor pointer para células clicáveis */
+    cursor: pointer;
+    
+    /* Define padding das células */
+    padding: 12px 8px 12px 10px;
+    
+    /* Tamanho da fonte */
+    font-size: 18px;
+    
+    /* Transição suave nas interações */
+    transition: 0.2s;
+    
+    /* Alinhamento de texto à esquerda */
+    text-align: start;
+}
+
+table {
+    /* Cor de fundo branco */
+    background-color: white;
+    
+    /* Largura da tabela definida */
+    width: 50%;
+}
+
+/* Estilos para linhas ímpares */
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+/* Ajuste de largura para a primeira coluna */
+th:nth-child(1) {
+    width: 80%;
+}
+
+/* Efeito hover nas linhas da tabela */
+tr:hover {
+    /* Cor de fundo muda ao passar o mouse */
+    background: rgb(200, 199, 199);
+}
+
+/* Container com rolagem horizontal para a tabela */
+.table-container {
+    width: 90%;
+    overflow-x: auto; /* Adiciona rolagem horizontal quando necessário */
+}
+
+table {
+    width: 90%; /* Faz a tabela ocupar a largura total do container */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4; /* Fundo mais claro para o cabeçalho */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas ímpares */
+}
+
+tbody tr:hover {
+    background-color: #eaeaea; /* Cor de fundo ao passar o mouse */
+}
