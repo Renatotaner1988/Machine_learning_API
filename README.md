@@ -32,12 +32,12 @@ Este MVP tem como objetivo demonstrar uma aplicação Fullstack que integra mode
 - O sistema utiliza a biblioteca Pandas para realizar a leitura e manipulação dos dados de entrada (dataset). Um exemplo de dataset utilizado neste MVP pode ser um dataset de doenças cardíacas.
 - Os dados passam por pré-processamento, como normalização, preenchimento de valores faltantes e seleção de recursos relevantes.
 
-#Treinamento do Modelo:
+# Treinamento do Modelo:
 
 - Utiliza-se a biblioteca Scikit-learn para criar e treinar o modelo de machine learning com algoritmos como Random Forest, Decision Tree ou Logistic Regression.
 - O modelo é treinado com os dados de entrada e ajustado com base em técnicas de validação cruzada.
 
-## Exposição da API:
+# Exposição da API:
 Com o modelo treinado, ele é integrado à API criada com Flask ou FastAPI.
 
 # Endpoints são configurados para permitir:
