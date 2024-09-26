@@ -1,3 +1,6 @@
+## Apresentação MVP - Sistema de Machine Learning com API Integrada
+Este MVP apresenta uma aplicação Fullstack que integra modelos de Machine Learning, treinados com bibliotecas como Pandas e Scikit-learn, com uma API desenvolvida em Flask ou FastAPI. O backend processa dados e oferece endpoints para predições em tempo real, enquanto o frontend, em HTML/CSS e JavaScript, permite a interação com a API, possibilitando o envio de dados e a visualização de resultados.
+
 ## Instruções para Executar a Aplicação
 # Pré-requisitos
 - Python 3.x instalado na máquina.
