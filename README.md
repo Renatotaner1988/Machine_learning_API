@@ -43,7 +43,7 @@ Com o modelo treinado, ele é integrado à API criada com Flask ou FastAPI.
 - Envio de novos dados para predição.
 - Obtenção de resultados em tempo real.
   
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 # Backend:
 - Python
