@@ -6,16 +6,17 @@ Este MVP tem como objetivo demonstrar uma aplicação Fullstack que integra mode
 # Arquitetura da Aplicação
 - Backend (Python)
 
-Bibliotecas Principais:
-Pandas: Para carregamento e manipulação de dados.
-Scikit-learn: Para criação e treinamento dos modelos de Machine Learning.
-Flask ou FastAPI: Para a criação e gerenciamento da API.
-Joblib/Pickle: Para salvar e carregar os modelos treinados.
-Funções:
-Treinamento e validação do modelo.
-Exposição do modelo treinado por meio de endpoints da API.
-Processamento e resposta às solicitações do frontend (predições baseadas em dados enviados pelo usuário).
-Frontend (HTML/CSS/JavaScript)
+# Bibliotecas Principais:
+- Pandas: Para carregamento e manipulação de dados.
+- Scikit-learn: Para criação e treinamento dos modelos de Machine Learning.
+- Flask ou FastAPI: Para a criação e gerenciamento da API.
+- Joblib/Pickle: Para salvar e carregar os modelos treinados.
+
+# Funções:
+- Treinamento e validação do modelo.
+- Exposição do modelo treinado por meio de endpoints da API.
+- Processamento e resposta às solicitações do frontend (predições baseadas em dados enviados pelo usuário).
+- Frontend (HTML/CSS/JavaScript)
 
 HTML/CSS: Criação da interface de usuário para submissão de dados e exibição dos resultados.
 JavaScript (Fetch API/Axios): Comunicação com o backend por meio de chamadas HTTP.
