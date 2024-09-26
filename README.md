@@ -26,7 +26,6 @@ Este MVP tem como objetivo demonstrar uma aplicação Fullstack que integra mode
 - Visualização de predições em tempo real após a comunicação com a API.
 - Feedback imediato com base nos resultados processados pelo modelo.
 
-## Fluxo de Trabalho
 
 # Carregamento e Preparação dos Dados:
 
