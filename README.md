@@ -52,7 +52,7 @@ Com o modelo treinado, ele é integrado à API criada com Flask ou FastAPI.
 - Flask/FastAPI
 - Joblib/Pickle
 - 
-#Frontend:
+# Frontend:
 -HTML/CSS
 - JavaScript (Fetch API/Axios)
 
