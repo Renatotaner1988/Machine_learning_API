@@ -17,8 +17,7 @@ Este MVP tem como objetivo demonstrar uma aplicação Fullstack que integra mode
 - Exposição do modelo treinado por meio de endpoints da API.
 - Processamento e resposta às solicitações do frontend (predições baseadas em dados enviados pelo usuário).
 - Frontend (HTML/CSS/JavaScript)
-
-# HTML/CSS: Criação da interface de usuário para submissão de dados e exibição dos resultados.
+- HTML/CSS: Criação da interface de usuário para submissão de dados e exibição dos resultados.
 - JavaScript (Fetch API/Axios): Comunicação com o backend por meio de chamadas HTTP.
 
 # Funcionalidades:
