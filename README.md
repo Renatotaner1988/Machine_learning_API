@@ -1,10 +1,10 @@
-##Apresentação MVP - Sistema de Machine Learning com API Integrada
+## Apresentação MVP - Sistema de Machine Learning com API Integrada
 
-#Visão Geral
+# Visão Geral
 Este MVP tem como objetivo demonstrar uma aplicação Fullstack que integra modelos de Machine Learning com uma interface de usuário funcional. O sistema utiliza técnicas de aprendizado de máquina para treinar modelos com dados, expondo a funcionalidade via uma API. O frontend interage com essa API, proporcionando uma experiência de usuário dinâmica e interativa.
 
-#Arquitetura da Aplicação
--Backend (Python)
+# Arquitetura da Aplicação
+- Backend (Python)
 
 Bibliotecas Principais:
 Pandas: Para carregamento e manipulação de dados.
