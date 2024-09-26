@@ -44,16 +44,14 @@ Com o modelo treinado, ele é integrado à API criada com Flask ou FastAPI.
 - Envio de novos dados para predição.
 - Obtenção de resultados em tempo real.
   
-## Interface de Usuário:
-Através do frontend desenvolvido em HTML, CSS e JavaScript, o usuário pode interagir com a aplicação, enviar dados para o modelo e visualizar os resultados diretamente na interface.
-Exemplo: Enviar características de um paciente para predição de risco de doença cardíaca e receber a resposta instantaneamente.
+# Tecnologias Utilizadas
 
-## Tecnologias Utilizadas
 # Backend:
 - Python
 - Pandas, Scikit-learn
 - Flask/FastAPI
 - Joblib/Pickle
+- 
 #Frontend:
 -HTML/CSS
 - JavaScript (Fetch API/Axios)
